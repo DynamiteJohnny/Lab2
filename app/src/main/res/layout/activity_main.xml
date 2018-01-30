@@ -10,16 +10,17 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activity1"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="156dp" />
+        android:text="Spider-man phrase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activity2"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="329dp" />
+        android:layout_marginStart="244dp"
+        android:text="Spider-man colors"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

@@ -10,7 +10,28 @@
         android:id="@+id/back1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1dp"
         android:text="Back"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="165dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's Tobey Maguire phrase?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mytextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/button_ct"
+        app:layout_constraintTop_toBottomOf="@+id/button_ct" />
+
 </android.support.constraint.ConstraintLayout>
